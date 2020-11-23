@@ -16,9 +16,9 @@ body, html{
 
 .box1{
     height: 83px;
-    background: #39cf21;
     font-family: "Righteous";
     border-radius: 14px;
+    background: #22FF00;
 }
 
 /*BUSCADOR*/
@@ -55,8 +55,10 @@ button[type="submit"]{
 }
 
 .box2{
-    background: #39cf21;
+    background-image: url(../img/adam-wilson-6UIonphZA5o-unsplash\ 2.png);
+    background-repeat: no-repeat;
     border-radius: 14px;
+    color: white;
 }
 
 .box2 h1{
