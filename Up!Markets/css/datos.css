@@ -1,0 +1,115 @@
+/*GENERALES*/
+
+body, html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+/*Fuentes*/
+@font-face{
+    font-family: "Righteous";
+    src: url('../fonts/Righteous-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#layout{
+    display: flex;
+    font-family: Righteous;
+    align-items: center;
+    flex-direction: column;
+
+   
+    background: #FFFFFF;
+
+}
+.boxblack{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #000000;
+
+}
+
+.verde{
+    width: 315vh;
+    height:100px;
+    background: #22FF00;
+}
+.entrada{
+    background: #FFFFFF;
+    width: 100%;
+    height: auto;
+}
+
+.entrada h1{
+    color: #000000;
+    font-size: 60px;
+    
+    height: auto;
+    text-align: center;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    font-family: Righteous;
+    font-size: 20px;
+    width: 50vh;
+}
+
+.content{
+    width:auto;
+    height: auto;
+}
+
+.formulario input{
+    flex-flow: row wrap;
+    border-radius: 30px;
+    width: 98%;
+    height: 40px;
+    font-family: Righteous;
+    font-size: 20px;
+    color: #666262;
+    padding-left: 10px;
+    
+}
+
+.formulario button{
+    flex-flow: row wrap;
+    border-radius: 30px;
+    width: 100%;
+    height: 46px;
+    font-family: Righteous;
+    background: #22FF00;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.negra{
+    width: 315vh;
+    height:50px;
+    background: #000000;
+}
+
+.boxs{
+    display: flex;
+    flex-direction: column;
+}
+
+.box1{
+    width: 315vh;
+    height:50px;
+    background: #000000;
+}
+
+.box2{
+    width: 315vh;
+    height:100px;
+    background: #22FF00;
+}
+
+
+

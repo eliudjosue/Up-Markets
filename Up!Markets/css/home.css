@@ -1,0 +1,161 @@
+/*GENERALES*/
+
+body, html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+/*Fuentes*/
+@font-face{
+    font-family: "Righteous";
+    src: url('../fonts/Righteous-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.box1{
+    width: 100%;
+    height: 83px;
+    background: #22FF00;
+}
+
+/*BUSCADOR*/
+
+.input-contenedor{
+    width: 100%;
+    height: 51px;
+    border: none;
+    padding-left: 5px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #ccc;
+    transition: all 300ms; 
+    border: 1px solid #ccc; 
+    border-radius: 30px;
+    text-align: center;
+    
+}
+.input-contenedor input[type="text"],
+button[type="submit"]{
+    height: 51px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: transparent;
+    border: none;
+    color: #555;
+    padding-left: 6px;
+    text-align: center;
+}
+
+/*CAROUSEL*/
+.carousel{
+    align-content: center;
+}
+
+.carousel__anterior,
+.carousel__siguiente {
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: none;
+    top: calc(50% - 35px);
+    cursor: pointer;
+    line-height: 30px;
+    background: none;
+    color: #fff;
+    opacity: 20%;
+    color: black;
+}
+
+.carousel__anterior:hover,
+.carousel__siguiente:hover {
+    opacity: 100%;
+}
+.carousel__anterior{
+    left: -30px;
+}
+
+.carousel__siguiente{
+    right: 30px;
+}
+
+.carousel__lista {
+    overflow: hidden;
+}
+
+.carousel__indicadores .glider-dot {
+    display: block;
+    width: 30px;
+    height: 4px;
+    background: #fff;
+    opacity: .2;
+    border-radius: 0;
+}
+
+.carousel__indicadores .glider-dot:hover {
+    opacity: .5;
+}
+
+.carousel__indicadores .glider-dot.active {
+    opacity: 1;
+}
+
+
+/*Menu de navegacion*/
+.navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFFFFF;
+}
+
+.navbar > ul > li{
+  list-style: none;    
+}
+
+.navbar >ul > li a {
+    padding-left: 15px;
+    padding-right: 15px;
+    color:white;
+    text-decoration: none;
+    font-size: 30px;
+    color: #ABABAB;
+}
+
+.main-li-nav{
+    float: left;
+    align-items: center;
+}
+
+.nav .menu{
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.icon-home:hover{
+    background-color: #22FF00;
+    box-shadow: 0px 0px 4px inset;
+    border-radius: 999px;
+}
+
+.icon-shopping-cart:hover{
+    background-color: #22FF00;
+    box-shadow: 0px 0px 4px inset;
+    border-radius: 999px;
+}
+
+.icon-magnifying-glass:hover{
+    background-color: #22FF00;
+    box-shadow: 0px 0px 4px inset;
+    border-radius: 999px;
+}
+
+.icon-heart:hover{
+    background-color: #22FF00;
+    box-shadow: 0px 0px 4px inset;
+    border-radius: 999px;
+    
+}

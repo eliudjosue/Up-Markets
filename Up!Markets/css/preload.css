@@ -1,0 +1,28 @@
+/*GENERALES*/
+
+body, html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+body{
+    background: #000000;
+}
+
+/* logo upmarket 1 */
+
+.seccion{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.logo img{
+    display: block;
+    text-align: center;
+    margin: 0px auto;
+    width: 338px;
+    height: 316px;
+}
