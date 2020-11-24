@@ -55,8 +55,7 @@ button[type="submit"]{
 }
 
 .box2{
-    background-image: url(../img/adam-wilson-6UIonphZA5o-unsplash\ 2.png);
-    background-repeat: no-repeat;
+    background: #22FF00;
     border-radius: 14px;
     color: white;
 }
@@ -148,6 +147,29 @@ button[type="submit"]{
     font-family: "Righteous";
     background: #F3F3F3;
     border-radius: 30px;
+}
+
+/** DESTACADOS **/
+
+.boton-destacado{
+    border: 3px solid #22FF00;
+    border-radius: 20px;
+}
+
+.boton1-destacado{
+    color: #22FF00;
+}
+
+.boton2-destacado{
+    background: #03D734;
+    color: white;
+    border-radius: 20px;
+    height: 75px;
+}
+
+.boton-destacado{
+    border: 3px solid #22FF00;
+    border-radius: 20px;
 }
 
 /*Menu de navegacion*/
