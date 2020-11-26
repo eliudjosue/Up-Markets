@@ -1,52 +1,96 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Up!Markets</title>
-    <link rel="stylesheet" type="text/css" href="../css/login.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Up!Markets</title>
+  <link rel="stylesheet" type="text/css" href="../css/login.css" />
+  <link rel="stylesheet" type="text/css" href="../Glider.js-master/glider.min.css" />
+  <link rel="stylesheet" href="../bootstrap-4.4.1-dist/css/bootstrap.min.css">
 </head>
+
 <body>
-    <section  id="section">
 
-        <div class="caja green">
+  <section class="row container-fluid">
+    <!--CAJA IZQUIERDA-->
 
-            <div class="caja titulo">
-              <h1>UP! Markets</h1>
-            </div>
+    <div class="row  justify-content-center col seccion1">
+      <h1 class="mt-5 col-12">UP! MARQUETS</h1>
 
-            <div  class="caja subtitulo">
-              <h1>PEDÍ LO QUE QUIERAS !</h1>
-            </div>
-            
+      <div class="row box"><br>
+        <h1 class="">PEDÍ LO QUE QUIERAS !</h1>
+      </div>
+    </div>
+
+    <!--CAJA DERECHA-->
+
+    <div class="row col justify-content-center seccion2">
+
+      <div class=" col-12  caja-negra container-fluid">
+
+        <div class="mt-5 row col m-2 justify-content-center">
+          <h5 class="justify-content-around">INGRESA A TU CUENTA:</h5>
         </div>
 
-        
+        <div class="input-contenedor m-2 col mt-5">
+          <button type="submit"><i class="fas fa-envelope"></i></button>
+          <input type="text" placeholder="Tu correo" />
+        </div>
 
-        <div class="caja black">
 
-            <div class="caja acount">
-               <h2>INGRESA A TU CUENTA</h2>
-            </div>
+        <div class="input-contenedor m-2 col mt-3">
+          <button type="submit"><i class="fas fa-unlock-alt"></i></button>
+          <input type="text" placeholder="Contraseña" />
+        </div><br>
 
-            <div class="caja form">
-               <form>
-                   <input type="text" value=" Tu correo" /><br>
-                   <input type="password" value="Contraseña"/><br>
-                   <button class="btn">INICIAR SESIÓN</button>
-               </form>
-            </div>
+        <div class="boton-contenedor row col m-2 justify-content-center mt-5">
+          <div class="justify-content-around">
+            <button type="button" class="btn-lg boton2-destacado">INICIAR SESIÓN</button>
+          </div>
+        </div>
 
-            <div class="caja notacount">
-               <h3>¿No tenes cuenta?</h3>
-            </div>
+        <div class="row col m-2 mt-5 justify-content-center">
+          <h4>¿No tenes cuenta?</h4>
+          <a href="../html/registro.html">
+            <h3>Registrate</h3>
+          </a>
+        </div>
 
-            <div class="caja signup">
-               
-               <a href="../html/registro.html"><h3>Registrate</h3></span></a>
-            </div>
-    
-     </div>
-   </section>
+
+        <div class="row col m-2 mt-5 justify-content-around">
+
+          <div class="icon rounded-circle card col-3">
+            <img class="icon rounded-circle card-img-top img-fluid" src=".." />
+          </div>
+
+          <div class="icon rounded-circle card col-3">
+            <img class="icon rounded-circle card-img-top img-fluid" src=".." />
+          </div>
+
+          <div class="icon rounded-circle card col-3">
+            <img class="icon rounded-circle card-img-top img-fluid" src=".." />
+          </div>
+
+        </div>
+
+        <div class="row col m-2 mt-5 justify-content-center">
+          <a href="../html/registro.html">
+            <h5>¿Olvidaste tu contraseña?</h5>
+          </a>
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <script src="https://kit.fontawesome.com/2c36e9b7b1.js " crossorigin=" anonymous "> </script>
+  <script type="text/javascript" src="../bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="../Jquery/jquery-3.5.0.min.js"></script>
+  <script type="text/javascript" src="../js/home.js"></script>
 </body>
+
 </html>

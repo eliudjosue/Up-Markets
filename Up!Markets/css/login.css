@@ -1,7 +1,7 @@
 /*GENERALES*/
 
 body, html{
-    height: 100%;
+    height: 100vh;
     width: 100%;
     margin: 0;
 }
@@ -14,80 +14,81 @@ body, html{
     font-style: normal;
 }
 
-#section{
-    display:inline-flex;
-    justify-content: center;
-    align-items: center;
-    font-family: Righteous;
-    flex-direction: column;
-    flex-flow: row wrap;
-}
-
-.green{
-    display:inline-flex;
-    flex-direction: column;
-  
-
-
-    background: #22FF00;
-    font-family: Righteous;
-    font-size: 60px;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-}
-
-.titulo{
+/** caja derecha **/
+.seccion1{
+    background-image: url(../img/Banner\ \(3\).png);
+    background-repeat: no-repeat;
+    border-radius: 14px;
     color: white;
+    background-size: auto;
+    text-align: center;
+    font-family: "Righteous";
+
 }
 
-.subtitulo{
+.box{
+   
+    height: 500px;
+    width: 300px;
+    border-radius: 35px;
+    background: #fff;
     color: black;
+    
 }
 
-
-.black{
-    display:inline-flex;
-    flex-direction: column;
-
-    
+.box h1{
+    font-size: 53px;
+}
+/**caja izquierda**/
+.seccion2{
+    height: auto;
     background: #000000;
-    font-family: Righteous;
-    color: white;
-    font-size: 60px;
-    width: 100%;
+    color: #fff;
+    font-family: "Righteous";
+}
 
+.caja-negra{
+    margin-top: 200px;
+}
+
+.seccion2 a{
+    color: #03D734;
+    list-style: none;
+}
+.input-contenedor{
+    height: 51px;
+    border: none;
+    background-color: transparent;
+    color: #ccc;
+    transition: all 300ms; 
+    border: 1px solid #ccc; 
+    border-radius: 30px;
+    /*text-align: center;*/
+    
+}
+.input-contenedor input[type="text"],
+button[type="submit"]{
+    height: 51px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: transparent;
+    border: none;
+    color: #555;
     text-align: center;
 }
 
-.acount{
-    font-size: 24px;
+.input-contenedor input[type="text"]{
+    width: 74%;
 }
 
-.form input{
-    border-radius: 30px;
-    width: 80%;
-    font-family: Righteous;
-    font-size: 20px;
-    background: #FFFFFF;
-    height: 40px;
+.boton2-destacado{
+    background: #03D734;
+    color: #000000;
+    border-radius: 25px;
+    height: 51px;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    text-align: center;
 }
 
-.btn{
-    background: #22FF00;
-    border-radius: 30px;
-    font-family: Righteous;
-    font-size: 24px;
-    width: 80%;
-    height: 40px;
-}
-
-.notacount{
-    font-size: 20px;
-    color: #FFFFFF;
-}
-
-.signup{
-    font-size: 24px;
-    color: #FFFFFF;
-}

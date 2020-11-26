@@ -158,6 +158,7 @@ button[type="submit"]{
 
 .boton1-destacado{
     color: #22FF00;
+    
 }
 
 .boton2-destacado{
@@ -170,6 +171,10 @@ button[type="submit"]{
 .boton-destacado{
     border: 3px solid #22FF00;
     border-radius: 20px;
+}
+
+.vaciar-carrito{
+    color: #9F9D9D;
 }
 
 /*Menu de navegacion*/
