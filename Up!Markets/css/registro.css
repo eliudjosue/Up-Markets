@@ -13,8 +13,8 @@ body, html{
     font-weight: normal;
     font-style: normal;
 }
-
-/** caja derecha **/
+@media (max-width:1440px){ 
+/** caja izquierda **/
 .seccion1{
     background-image: url(../img/Banner\ \(3\).png);
     background-repeat: no-repeat;
@@ -29,17 +29,12 @@ body, html{
 .box{
    
     height: 500px;
-    width: 300px;
     border-radius: 35px;
     background: #fff;
     color: black;
-    
 }
 
-.box h1{
-    font-size: 53px;
-}
-/**caja izquierda**/
+/**caja derecha**/
 .seccion2{
     height: auto;
     background: #000000;
@@ -73,7 +68,7 @@ button[type="submit"]{
     font-size: 16px;
     background-color: transparent;
     border: none;
-    color: #555;
+    color: #E0DCDC;
     text-align: center;
 }
 
@@ -92,3 +87,41 @@ button[type="submit"]{
     text-align: center;
 }
 
+.itemcs{
+    width: 76px;
+    height: 81px;
+    background: #fff;
+}
+}
+
+/** MEDIA QUERY **/
+
+@media (max-width:378px){ 
+    .seccion1{
+        background-image: url(../img/Banner-movil.png);
+        background-repeat: no-repeat;
+        border-radius: 14px;
+        color: white;
+        background-size: auto;
+        text-align: center;
+        font-family: "Righteous";
+        height: auto;
+    
+    }
+
+    .item-1{
+        height: 120px;
+        background: #000000;
+    }
+
+    .seccion2{
+        height: auto;
+        background: #000000;
+        color: #fff;
+        font-family: "Righteous";
+    }
+
+    .caja-negra{
+        margin-top: 20px;
+    }
+}
