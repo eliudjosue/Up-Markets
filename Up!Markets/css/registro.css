@@ -87,16 +87,16 @@ button[type="submit"]{
     text-align: center;
 }
 
-.itemcs{
-    width: 76px;
-    height: 81px;
+.item{
+    width: 75px;
+    height: 75px;
     background: #fff;
 }
 }
 
 /** MEDIA QUERY **/
 
-@media (max-width:378px){ 
+@media (max-width:575px){ 
     .seccion1{
         background-image: url(../img/Banner-movil.png);
         background-repeat: no-repeat;
@@ -122,6 +122,12 @@ button[type="submit"]{
     }
 
     .caja-negra{
-        margin-top: 20px;
+        margin-top: 10px;
+    }
+
+    .boton-contenedor{
+        margin-top: 10px;
     }
 }
+
+
