@@ -26,6 +26,16 @@ body, html{
 
 }
 
+.box-green{
+    width: 100%;
+    height: 353px;
+    background: #22FF00;
+    border-bottom-right-radius: 999px;
+    border-bottom-left-radius: 999px;
+    margin-top: -228px;
+    
+}
+
 .box{
    
     height: 500px;

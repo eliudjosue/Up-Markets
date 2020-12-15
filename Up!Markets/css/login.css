@@ -47,8 +47,23 @@ body, html{
     font-family: "Righteous";
 }
 
-.caja-negra{
-    margin-top: 200px;
+.box-green{
+    width: 100%;
+    height: 353px;
+    background: #22FF00;
+    border-bottom-right-radius: 999px;
+    border-bottom-left-radius: 999px;
+    margin-top: -228px;
+    
+}
+
+.box-black{
+    width: 100%;
+}
+
+.enter-acount{
+    width: 100%;
+    margin-top: 79px;
 }
 
 .seccion2 a{
@@ -63,9 +78,11 @@ body, html{
     transition: all 300ms; 
     border: 1px solid #ccc; 
     border-radius: 30px;
+    margin-top: 75px;
     /*text-align: center;*/
     
 }
+
 .input-contenedor input[type="text"],
 button[type="submit"]{
     height: 51px;
@@ -81,8 +98,12 @@ button[type="submit"]{
     width: 74%;
 }
 
+.boton-contenedor{
+    width: 85%;
+}
+
 .boton2-destacado{
-    background: #03D734;
+    background: #22FF00;
     color: #000000;
     border-radius: 25px;
     height: 51px;
@@ -90,5 +111,17 @@ button[type="submit"]{
     font-size: 16px;
     border: none;
     text-align: center;
+    width: 100%;
+}
+
+.icon{
+    width: 45px;
+    height: 80px;
+    background: white;
+    border-radius: 40px;
+}
+
+.link > a{
+    text-decoration: none;
 }
 
