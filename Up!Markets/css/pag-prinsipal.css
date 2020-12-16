@@ -1,0 +1,45 @@
+/*Fuentes*/
+@font-face{
+    font-family: "Righteous";
+    src: url('../fonts/Righteous-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*GENERALES*/
+body, html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: "Righteous";
+}
+
+#nav{
+    height: 79px;
+    border: 2px solid black;
+}
+
+.input-contenedor{
+    height: 44px;
+    background-color: #22ff00;
+    border-radius: 30px;
+    
+}
+
+.input-contenedor input[type="text"]{
+    border-radius: 30px;
+    background: #22ff00;
+    color: black;
+    border: none;
+}
+
+.input-contenedor button[type="submit"]{
+    border-radius: 30px;
+    background: #22ff00;
+    color: black;
+    border: none;
+}
+
+.buscar{
+    width: 10px;
+}

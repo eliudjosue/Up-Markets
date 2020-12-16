@@ -13,10 +13,10 @@ body, html{
     margin: 0;
     font-family: "Righteous";
 }
-
+@media (max-width: 600px){
 .box1{
     height: 83px;
-    background: #39cf21;
+    background: #22FF00;
     font-family: "Righteous";
     border-radius: 14px;
 }
@@ -56,7 +56,7 @@ button[type="submit"]{
 }
 
 .box2{
-    background: #39cf21;
+    background: #22FF00;
     border-radius: 14px;
 }
 
@@ -69,7 +69,7 @@ button[type="submit"]{
     border-radius: 20px;
     color: white;
 }
-
+ 
 #productos{
     font-family: "Righteous";
     background: #F3F3F3;
@@ -199,6 +199,6 @@ nav ul li:hover{
     }
  }
 
- 
+}
 
  
