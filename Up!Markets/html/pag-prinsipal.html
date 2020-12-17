@@ -11,44 +11,55 @@
 </head>
 
 <body>
-    <!--Menú de navegacion-->
-    <nav id="nav">
-        <div class="col-12 row justify-content-around">
-            <li class="icon row col-1 mt-4"><a href="#"><i class="fas fa-search"></i></a></li>
+    <!--Menú de navegacion de bootstrap-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            
+            <span class="icon navbar-brand menu"><a href="#"><i class="fas fa-search"></i></a></span>
 
-            <div class="input-contenedor row col-3 mt-4">
-                <input type="text" value="Buscar"/>
-                <button class="bucar" type="submit"><i class="fas fa-search"></i></button>
+            <div class="d-flex input-contenedor">
+                <input type="text" value="Buscar" />
+                <button class="btn btn-outline-success navbar-brand" type="submit"><i
+                        class="fas fa-search"></i></button>
             </div>
 
-            <div class="direcciones row col-3 mt-4">
-                <ul>
-                    <li><a href="direcciones.html">Direccion ingresada</a>
-                        <ul>
-                            <li><a href="index.html">inicio</a></li>
-                            <li><a href="index.html">inicio</a></li>
-                            <li><a href="index.html">inicio</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Direccion Ingresada
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+            </li>
 
-            <div class="navegacion row col-3 justify-content-end mt-4">
-                <ul class=" row menu col justify-content-around">
+            <div class="navbar justify-content-end">
+
+                <ul class=" row m-3 menu col-12 justify-content-around">
                     <li class="icon"> <a href="#"><i class="fas fa-home"></i></span></a></li>
                     <li class="icon"><a href="#"><i class="fas fa-shopping-cart"></i></span></a></li>
                     <li class="icon"><a href="#"><i class="fas fa-heart"></i></a></li>
                     <li class="icon"><a href="#"><i class="fas fa-heart"></i></a></li>
                 </ul>
+
             </div>
         </div>
-
     </nav>
-    <!-- Fin del menu de navegacion-->
     <!--Inicio de la cabecera-->
 
     <header id="header">
 
+        <h1>¡Encontra lo que necesitas!</h1>
+
+        <div class="d-flex input-cont">
+            <button class="navbar-brand" type=""><i class="fas fa-map-marker-alt"></i></button>
+            <input type="text" value="Ingresa tu direccion"/>
+            <button class="navbar-brand justify-content-end" type="submit">Cargar</button>
+        </div>
     </header>
     <!--Fin de la cabecera-->
 
